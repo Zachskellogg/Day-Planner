@@ -1,0 +1,98 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Montserrat', sans-serif;
+  color: #D1D1D1;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  height:720px;
+  width: 900px;
+  margin: 20px 0px 20px 0px;
+  display: inline-flex;
+}
+
+.before {
+  background-color: green;
+}
+
+.timings {
+  text-align: right;
+  padding-right: 10px;
+  width: 100px;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  font-size: 0.5em;
+  box-sizing: border-box
+}
+
+.timings span {
+  font-size: 200%;
+  color: #696969;
+}
+
+.days {
+  height: 720px;
+  width: 620px;
+  padding: 0px 10px;
+  background-color: #F0F0F0;
+  border-color: #D1D1D1;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+.during {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 5px;
+  border-color: #D1D1D1;
+  border-left-color: #473bb4;
+  padding-left: 10px;
+  padding-top: 5px;
+  position: absolute;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.before {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 5px;
+  border-color: #D1D1D1;
+  border-left-color: #57b986;
+  padding-left: 10px;
+  padding-top: 5px;
+  position: absolute;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.event .title {
+  color: #57b986;
+  font-size: 200%;
+}
