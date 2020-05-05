@@ -29,14 +29,14 @@ $(document).ready(function() {
   })
   
   var classUpdate = function () {
-    var timeC = moment().format('h');
-    console.log(timeC);
-    if (timeC === Number($(this).attr('id'))) {
-      $(this).siblings('input').css("background-color", 'red')
-      console.log('id');
+    var timeC = parseInt(moment().format('H'));
+    if (timeC > parseInt($(this).attr('id'))) {
+      $(this).siblings('input').addClass("after")
+      console.log("this is working")
     }
-    
+    console.log(timeC);
+    console.log($(this).attr('id'));
   }
-  $('.btn-ouline-secondary').each(classUpdate());
+  $('.btn-outline-secondary').each(classUpdate);
 });
 
